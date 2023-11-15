@@ -1,0 +1,45 @@
+01:11:01.696 [Thread-0] DEBUG org.springframework.boot.devtools.restart.classloader.RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@149129d4
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.5)
+
+2022-11-28 01:11:02.174  INFO 26112 --- [  restartedMain] c.j.k.KaggleProjectApplication           : Starting KaggleProjectApplication using Java 17.0.5 on Rahul with PID 26112 (C:\Users\18178\Documents\Kaggle_Workspace\Login-Kaggle\Kaggle_Project_Login\target\classes started by 18178 in C:\Users\18178\Documents\Kaggle_Workspace\Login-Kaggle\Kaggle_Project_Login)
+2022-11-28 01:11:02.175  INFO 26112 --- [  restartedMain] c.j.k.KaggleProjectApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-28 01:11:02.236  INFO 26112 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-28 01:11:02.236  INFO 26112 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-28 01:11:03.390  INFO 26112 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-28 01:11:03.621  INFO 26112 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 203 ms. Found 1 JPA repository interfaces.
+2022-11-28 01:11:05.114  INFO 26112 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8998 (http)
+2022-11-28 01:11:05.129  INFO 26112 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-28 01:11:05.129  INFO 26112 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-28 01:11:05.342  INFO 26112 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-28 01:11:05.343  INFO 26112 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3107 ms
+2022-11-28 01:11:05.791  INFO 26112 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-28 01:11:06.890  INFO 26112 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-28 01:11:06.994  INFO 26112 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-28 01:11:07.160  INFO 26112 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-28 01:11:07.646  INFO 26112 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-28 01:11:07.971  INFO 26112 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2022-11-28 01:11:09.366  INFO 26112 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-28 01:11:09.392  INFO 26112 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 01:11:09.494  WARN 26112 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-28 01:11:10.446  INFO 26112 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@566a7643, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@558b5e11, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e878606, org.springframework.security.web.header.HeaderWriterFilter@37f27663, org.springframework.security.web.authentication.logout.LogoutFilter@5c60229b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@461cdfe3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7f1fd807, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@499b6220, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48badbb3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bf2fe7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@756bfbfd, org.springframework.security.web.session.SessionManagementFilter@7c64fe0f, org.springframework.security.web.access.ExceptionTranslationFilter@c39259c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57234d37]
+2022-11-28 01:11:10.763  INFO 26112 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-11-28 01:11:12.064  INFO 26112 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-28 01:11:12.120  INFO 26112 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8998 (http) with context path ''
+2022-11-28 01:11:12.136  INFO 26112 --- [  restartedMain] c.j.k.KaggleProjectApplication           : Started KaggleProjectApplication in 10.425 seconds (JVM running for 11.102)
+2022-11-28 01:11:34.825  INFO 26112 --- [nio-8998-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-28 01:11:34.825  INFO 26112 --- [nio-8998-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-28 01:11:34.827  INFO 26112 --- [nio-8998-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-28 01:11:49.937  WARN 26112 --- [io-8998-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 2627, SQLState: 23000
+2022-11-28 01:11:49.938 ERROR 26112 --- [io-8998-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Violation of UNIQUE KEY constraint 'users_email_constraint'. Cannot insert duplicate key in object 'dbo.users'. The duplicate key value is (rahul.ramasagaram@gmail.com).
+2022-11-28 01:14:49.816  WARN 26112 --- [nio-8998-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 2627, SQLState: 23000
+2022-11-28 01:14:49.817 ERROR 26112 --- [nio-8998-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Violation of UNIQUE KEY constraint 'users_email_constraint'. Cannot insert duplicate key in object 'dbo.users'. The duplicate key value is (rahul.ramasagaram@gmail.com).
+2022-11-28 01:44:43.080  INFO 26112 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 01:44:43.099  INFO 26112 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-28 01:44:43.105  INFO 26112 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

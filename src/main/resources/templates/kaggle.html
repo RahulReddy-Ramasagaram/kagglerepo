@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>KAGGLE</TITLE>
+  <link rel="stylesheet" href="kaggle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="title-bar">
+  <h1>Kaggle</h1>
+</div>
+<hr>
+<form action="save" method="post">
+  <div class="content">
+    <h4>Insert Dataset</h4>
+    <label for="name">Enter Dataset Name</label>
+    <input type="text" name="datasetName" required>
+    <p></p>
+  </div>
+  <div class="category">
+    <label for="category">Category:</label>
+    <select name="category" id="category">
+      <option value="health">Health</option>
+      <option value="business">Business</option>
+      <option value="transportation">Transportation</option>
+	  <option value="games">Games</option>
+	  <option value="environment">Environment</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+  <div class="link">
+    <label for="name">URL:</label>
+    <input type="text" id="name" name="url" required>
+
+    <p>Upload Dataset</p>
+    <div class="drag-area">
+      <!--<div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>-->
+      <!--<div class="header"><header>Drag & Drop to Upload File</header></div>-->
+      <!--<span>OR</span>-->
+      <input type="file" id="myfile" name="dataset_location" required>
+      <!-- <button>Browse File</button> -->
+      <!-- <input type="file" hidden"> -->
+    </div>
+  </div>
+  <div class="container">
+    <button class="btn btn-light" type="submit">Create</button>
+  </div>
+  </br>
+  </br>
+</form>
+<hr class="dotted"><hr>
+<form action="searchd" method="post">
+  <div class="searchbox">
+    <h4>Search Dataset</h4>
+    <input type="text" placeholder="Search Dataset" name="search_word">
+  </div>
+  <div class="container">
+    <button class="btn btn-light" type="submit">Search</button>
+  </div>
+</form>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
